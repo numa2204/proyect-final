@@ -1,0 +1,67 @@
+
+    body{background-image: url(https://fondosmil.com/fondo/457.png);
+   background-repeat: round;
+}
+span{color:saddlebrown}
+.primerclass{
+    background-color: salmon;
+    
+    color: saddlebrown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#imagen{
+    width: 500px;
+    height: 500px;
+}
+.AFICIONES{
+    font-family: 'Island Moments', cursive;
+}
+.datos{
+    color: seagreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parrafo{
+    background-color: seagreen;
+    color: tan;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px; /* margin botton (abajo) margin top (arriba) margin left and right(izquierda y derecha) las distancia entre las otras cajas c*/
+    padding : 20px;/*  agranda el relleno de la caja con los mismos comandos botton,top,right and left*/
+    border:solid 5px rgb(255, 0, 119);/* hay mas tipos de bordes que estan en la plaataforma*/
+}
+.barra{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: violet;
+      padding: 2px;
+}
+.barra li{
+     list-style:none ;
+     font-size: 20px;
+}
+.barra li a{
+ text-decoration: none;
+color: tomato;
+}
+.flex{display: flex;}
+/*importan sirve para romper toda propiedad de la cascada,no usar;*/
+footer{
+    background-color: white;
+}
+.barra li a:hover{
+    background-color: seagreen;
+color: springgreen;
+font-size: 30px;
+}
+.barra li a:link{
+color: tomato;
+background-color: violet;
+}
+/*son para los link que no fueron visitados*/
+.barra li a:visited{
+    color: gold;
+    background-color: green;
+}
+.barra li a:active{
+    color: royalblue;
+    background-color: indigo;
+    font-size :50px ;
+}
